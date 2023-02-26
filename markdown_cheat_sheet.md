@@ -1,6 +1,6 @@
 #Basic Syntax - Markdown Guide
 
-#Заголовки
+# Заголовки
 ---
 
 # А1
