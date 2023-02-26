@@ -57,6 +57,77 @@ Title | Steps | Actual result
 footer|1|yes
 heder|2|no
 
+## Ссылки
+---
+
+Есть несколько способов создать ссылки:
+
+[С указанием ссылки сразу](https://github.com/LikhatskayaV)
+[С указанием ссылки в сноске][https://github.com/LikhatskayaV]
+[можно использовать цифры в качестве сносок][1]
+Любая ссылка обрамленная в `<>` , преобразуется в активную ссылку
+<https://github.com/LikhatskayaV>
+
+Какойто текст перед сносками
+
+[Vika's GitHub link]: https://github.com/LikhatskayaV
+[1]: https://github.com/LikhatskayaV
+
+## Ссылки
+---
+
+Задаются почти так же как и ссылки:
+
+Ссылка на изобажение сразу:
+![all text](https://static.vecteezy.com/system/resources/thumbnails/017/119/660/small/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg)
+
+Указание ссылки на изоброжение в сноске:
+![alt text][logo]
+
+[logo]: https://static.vecteezy.com/system/resources/thumbnails/017/119/660/small/github-logo-git-hub-icon-with-text-on-white-and-black-background-free-vector.jpg 
+
+## Подсветка и выделение элементов
+---
+
+С помощью апострофов `текст` будет `оформлен` .
+
+Больщие куски кода обрамляются тройными апострофами (возникли сложности с отображением 
+синтаксиса - всё автокомментится, поэтому где-то вместо трёх апострофов немного больше)
+При добавлении префикса языка программирования будет меняться подсветка.
+
+```javascript
+var s = "JavaScrypt sintax highlighting";
+alert(s);
+```
+```
+s = "Python syntax highlighting"
+print s
+``````
+
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b> . .
+
+## Цитаты
+---
+
+> Цитаты задаются угловой скобкой `>` .
+< Это строка является частью цитаты.
+
+прервалась цитата...
+
+> В цитатах можно использовать **начертания** и `обрамления`, ~~helohelohelohelohelohelohelo~~ . 
+## Уведомления
+---
+!!! important "Важное"
+вместо important можно задать любой класс. Наша css тема сейчас поддерживает 3 класса: 
+important, danger, notice. Сейчас используется important.
+
+!!! danger "Пример danger"
+    здесь указан класс danger
+
+!!! notice "Пример notice"
+    здесь указан класс notice
+
 
 
 
