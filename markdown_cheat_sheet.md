@@ -63,8 +63,11 @@ heder|2|no
 Есть несколько способов создать ссылки:
 
 [С указанием ссылки сразу](https://github.com/LikhatskayaV)
+
 [С указанием ссылки в сноске][https://github.com/LikhatskayaV]
+
 [можно использовать цифры в качестве сносок][1]
+
 Любая ссылка обрамленная в `<>` , преобразуется в активную ссылку
 <https://github.com/LikhatskayaV>
 
@@ -95,8 +98,7 @@ heder|2|no
 синтаксиса - всё автокомментится, поэтому где-то вместо трёх апострофов немного больше)
 При добавлении префикса языка программирования будет меняться подсветка.
 
-```javascript
-var s = "JavaScrypt sintax highlighting";
+```javascript var s = "JavaScrypt sintax highlighting";
 alert(s);
 ```
 ```s = "Python syntax highlighting"
@@ -117,14 +119,14 @@ But let's throw in a <b>tag</b> . .
 > В цитатах можно использовать **начертания** и `обрамления`, ~~helohelohelohelohelohelohelo~~ . 
 ## Уведомления
 ---
-!!! important "Важное"
+!!!important "Важное"
 вместо important можно задать любой класс. Наша css тема сейчас поддерживает 3 класса: 
 important, danger, notice. Сейчас используется important.
 
-!!! danger "Пример danger"
+!!!danger "Пример danger"
     здесь указан класс danger
 
-!!! notice "Пример notice"
+!!!notice "Пример notice"
     здесь указан класс notice
 
 
